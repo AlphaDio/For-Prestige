@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f596994b-30d8-4639-9175-1c2e965cbd20"  version="1.0">
+  <Properties>
+    <Name>For Prestige!</Name>
+    <Teaser>Change Loyalty, for Style and Prestige</Teaser>
+    <Description>Change Loyalty, for Style and Prestige</Description>
+    <Authors>AlphaDio</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+  </Properties>
+
+  <InGameActions>
+    <AddGameplayScripts id="Civ6LUA_Testing_File">
+      <File>LUA/Gameplay.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+
+  <Files>
+    <File>LUA/Gameplay.lua</File>
+    <File>LUA/UI.lua</File>
+  </Files>
+</Mod>
